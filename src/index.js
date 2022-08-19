@@ -5,6 +5,9 @@ import ProfilImage from "./profilImage"
 import Content from "./content"
 import Footer from "./footer"
 
+import './style.css';
+import './bootstrap.min.css';
+// import './inter.css';
 
 function Card() {
     return (
