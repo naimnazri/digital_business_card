@@ -545,7 +545,7 @@ function ProfilImage() {
     return _react2.default.createElement(
         "div",
         null,
-        _react2.default.createElement("img", { className: "profilImage", src: "./img/profil.jpg" })
+        _react2.default.createElement("img", { className: "profilImage", src: "./img/profil.jpg", alt: "Profil Image" })
     );
 }
 
