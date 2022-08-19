@@ -14,5 +14,6 @@
   "scripts": {
     "build": "webpack",
     "watch": "webpack -w"
-  }
+  },
+  "homepage":"https://miy97.my/digital_business_card/"
 }
