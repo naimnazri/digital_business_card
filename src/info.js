@@ -19,7 +19,7 @@ function Role() {
 function Website() {
     return (
         <div>
-            <div className="infoWebsite">miy97.my</div>
+            <a href="naimnazri.com" className="infoWebsite">naimnazri.com</a>
         </div>
     )
 }
