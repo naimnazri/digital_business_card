@@ -20,7 +20,7 @@ jobs:
           username: ${{ secrets.VPS_USER }}
           key: ${{ secrets.VPS_SSH_KEY }}
           script: |
-            echo "✅ SSH connected. Starting deployment..."
+            echo "✅ SSH connected. Starting deployment...t"
 
             cd /home/digital-business-card.namix.space/public_html/digital_business_card || {
               echo "❌ Folder not found"; exit 1;
