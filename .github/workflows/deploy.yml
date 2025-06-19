@@ -44,7 +44,7 @@ jobs:
             docker run -d \
               --name digitalbusinesscard \
               --restart unless-stopped \
-              -p 8080:80 \
+              -p 8090:80 \
               digital_business_card || {
               echo "❌ Docker run failed"; exit 1;
             }
