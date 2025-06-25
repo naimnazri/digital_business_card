@@ -3,7 +3,7 @@ name: Deploy to VPS
 on:
   push:
     branches:
-      - main  # Trigger bila push ke branch main
+      - main # Trigger bila push ke branch main
 
 jobs:
   deploy:
@@ -22,7 +22,7 @@ jobs:
           script: |
             echo "✅ SSH connected. Starting deployment...t"
 
-            cd /home/digital-business-card.namix.space/public_html/digital_business_card || {
+            cd /var/www/digital-business-card.namix.space/public_html/digital_business_card || {
               echo "❌ Folder not found"; exit 1;
             }
 
